@@ -1,0 +1,46 @@
+/* Estilização dos Botões */
+.botoes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px; /* Espaçamento entre os botões */
+    margin-top: 25px;
+    flex-wrap: wrap; /* Garante ajuste em telas pequenas */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  /* Botões Voltar e Próximo */
+  .btn-secundario {
+    background-color: #e0e6ed;
+    color: #4a5568;
+  }
+  
+  .btn-secundario:hover {
+    background-color: #cbd5e1;
+    color: #1e293b;
+  }
+  
+  /* Botão Ver Resultado (Destaque no centro) */
+  .btn-destaque {
+    background-color: #3498db;
+    color: #ffffff;
+  }
+  
+  .btn-destaque:hover {
+    background-color: #2980b9;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+  }
+  
+  .btn:active {
+    transform: translateY(0);
+  }
